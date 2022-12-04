@@ -32,6 +32,7 @@ img {
 }
 input { 
   outline: none;
+  width: 70%;
 }
 hr {
   border: 1px solid   #084851;
