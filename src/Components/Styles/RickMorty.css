@@ -201,6 +201,35 @@ html {
     font-size: 32px;
   }
 }
+
+@media only screen and (min-width: 1600px) {
+  .ulheader__span {
+    font-size: 18px;
+  }
+  .ulheader__li {
+    font-size: 16px;
+  }
+
+  .ulheader span {
+    text-decoration: none;
+  }
+  ul {
+    line-height: 22px;
+  }
+  .ulheader {
+    display: flex;
+    height: 100%;
+     
+  }
+  .ulheader__li {
+    margin: 1em 4em;
+    font-weight: 500;
+  }
+  .alert {
+   text-align: center;
+    font-size: 32px;
+  }
+}
 @media only screen and (max-width: 802px) {
   .ulheader__span {
     font-size: 16px;
