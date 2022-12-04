@@ -41,7 +41,7 @@ const handleSubmit = (e) => {
 }
   return (
     <div className="App">
-      <img className='photo' src="/src/assets/img/original.png" alt="" /> <br />
+      <img className='photo' src="https://i.ibb.co/syP0YnK/original.png" alt="" /> <br />
       <form className='search' onSubmit={handleSubmit}>
         <input id="inputSearch" placeholder='Chapter between 1 and 126' type="text" />
         <button className='search__button' >Search</button>
