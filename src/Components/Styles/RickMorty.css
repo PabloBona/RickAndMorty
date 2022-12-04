@@ -1,0 +1,192 @@
+/* ---------------Header & Main ----------------- */
+.App {
+  background-color: rgb(8,43,47);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100%;
+
+  
+}
+
+.mainInfo {
+  background-color: #062226;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color: white;
+  border-radius: 10px;
+}
+.alert {
+  text-align: center;
+   font-size: 12px;
+   max-width: 90%;
+ }
+/* ---------------Search  Button ----------------- */
+.search {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+/* ---------------Location----------------- */
+.ulheader {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: stretch;
+}
+.ulheader__span {
+  font-size: 10px;
+}
+
+/* ---------------Cards ----------------- */
+
+.card {
+  width: 100%;
+  max-width: 270px;
+  border-radius: 0.8em;
+  overflow: hidden;
+  margin-top: 1rem;
+  background-color: #062226;
+  color: white;
+  margin-bottom: 2rem;
+  transition: 0.6s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.flexError {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  padding-top: 10rem;
+}
+html {
+  background-color: rgb(8,43,47);
+}
+.card__header {
+  width: 100%;
+  aspect-ratio: 1;
+  position: relative;
+}
+.card__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card__circle-container {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  width: 35%;
+  background-color: #062226;
+  padding: 5px 0 5px 5px;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  align-items: center;
+  gap: 10px;
+}
+.card__circle {
+  width: 12px;
+  aspect-ratio: 1;
+  background-color: red;
+  border-radius: 50%;
+}
+._card__body {
+  padding: 15px;
+  background: #062226;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.card__name {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 37.5px;
+  margin-bottom: 0.7em;
+}
+.card__item-label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #7e7e7e;
+  margin-bottom: 0.05em;
+  font-size: 18px;
+  line-height: 21.08px;
+}
+.card__list {
+  display: grid;
+  gap: 0.05em;
+  padding-left: 10px;
+}
+.card__item-value {
+  font-size: 0.7rem;
+  font-size: 18px;
+  line-height: 28.13px;
+}
+
+.Alive {
+  background-color: green;
+}
+.Dead {
+  background-color: red;
+}
+
+.search__button {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* ---------------Media Screen----------------- */
+@media only screen and (max-width: 466px) {
+  .ulheader {
+    display: block;
+    padding-left: 2em;
+    
+  }
+
+  ul {
+    line-height: 22px;
+  }
+ 
+
+}
+
+
+@media only screen and (min-width: 466px) {
+  .ulheader__span {
+    font-size: 22px;
+  }
+  .ulheader__li {
+    font-size: 15px;
+  }
+
+  .ulheader span {
+    text-decoration: none;
+  }
+  ul {
+    line-height: 22px;
+  }
+  .ulheader {
+    display: flex;
+    height: 100%;
+     
+  }
+  .ulheader__li {
+    margin: 1em 4em;
+    font-weight: 400;
+  }
+  .alert {
+   text-align: center;
+    font-size: 32px;
+  }
+}

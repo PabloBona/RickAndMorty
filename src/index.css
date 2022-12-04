@@ -1,0 +1,40 @@
+ 
+
+ 
+
+* {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Serif', serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  
+
+}
+h1,h2,h3,h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  display: block;
+  border: none;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+   
+}
+img {
+  display: block;
+  width: 100%;
+}
+input { 
+  outline: none;
+}
+hr {
+  border: 1px solid   #084851;
+  background-color:  rgb(8,43,47);
+   margin: 0 10px 0 10px;
+}
