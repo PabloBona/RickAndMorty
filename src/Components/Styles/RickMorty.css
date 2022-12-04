@@ -31,6 +31,9 @@
   width: auto;
   justify-content: center;
 }
+#inputSearch {
+  max-width: 30%;
+}
 /* ---------------Location----------------- */
 .ulheader {
   display: flex;
