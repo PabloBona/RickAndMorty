@@ -16,7 +16,7 @@
 
   margin-left: auto;
   margin-right: auto;
-   
+  
   color: white;
   border-radius: 10px;
 }
@@ -43,6 +43,7 @@
   background-color: #062226;
   margin-left: 5rem;
   margin-right: 5rem;
+  width: auto;
 }
 /* .ulheader {
   display: inline-block;
@@ -170,7 +171,26 @@ html {
   .ulheader__li {
     font-size: 12px;
   }
+  .card__name {
 
+    font-size: 1.3em;
+    font-weight: 700;
+
+  }
+  .card__item-label {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #7e7e7e;
+    
+    font-size: 16px;
+    
+  }
+  .card__item-value {
+    font-size: 0.7rem;
+    font-size: 16px;
+    line-height: 28.13px;
+     
+  }
   .ulheader span {
     text-decoration: none;
   }
@@ -224,6 +244,26 @@ html {
    text-align: center;
     font-size: 32px;
   }
+  .card__name {
+
+    font-size: 1.2em;
+    font-weight: 600;
+
+  }
+  .card__item-label {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #7e7e7e;
+    
+    font-size: 16px;
+    
+  }
+  .card__item-value {
+    font-size: 0.7rem;
+    font-size: 16px;
+    line-height: 28.13px;
+     
+  }
 } 
 
 
@@ -261,6 +301,27 @@ html {
     margin-left: 3rem;
     margin-right: 4rem;
     
+  }
+  .card__name {
+
+    font-size: 1em;
+    font-weight: 600;
+
+  }
+  .card__item-label {
+    font-size: 0.4rem;
+    font-weight: 600;
+    font-size: 14px;
+    color: #7e7e7e;
+    
+    font-size: 16px;
+    
+  }
+  .card__item-value {
+    font-size: 0.7rem;
+    font-size: 14px;
+    line-height: 28.13px;
+     
   }
 }
 @media only screen and (max-width: 650px) {
